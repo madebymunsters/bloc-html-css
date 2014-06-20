@@ -25,6 +25,7 @@
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/animate.css">
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -41,11 +42,11 @@
 <body>
 	<!-- Header
 	================================================== -->
-	<div id="header">
+	<div id="header" class="animated fadeInDown">
 		<div class="container">
 			<div class="three columns">
 				<div class="logo">
-					<img src="images/logo.png" alt="Jottly" />
+					<a href="#"><img src="images/logo.png" alt="Jottly" /></a>
 				</div>
 			</div>
 			<div class="twelve columns">
@@ -58,7 +59,7 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="nine columns headertext">
+			<div class="nine columns headertext animated fadeInDown">
 				<h1>An easier way to write &amp; collaborate</h1>
 				<p>Put down the pen and paper. Jott.ly helps you organize your <strong>life, home and office</strong>. It's a simple way to store and share ideas with your loved ones, friends and colleagues.</p>
 				<div class="container">
@@ -79,9 +80,11 @@
 	================================================== -->
 	<div id="benefits">
 		<div class="container">
-			<div class="sixteen columns">
+			<div class="twelve columns offset-by-two">
 				<h2>What is Jott.ly exactly?</h2>
 				<p>Our web application allows you to create documents with real-time editing and collaborating capabilities, while storing content and information to share with others.</p>
+			</div>
+			<div class="fourteen columns offset-by-one">
 				<img class="scale-with-grid" src="images/app.png" alt="Jottly's Web Application" />
 			</div>
 		</div>
@@ -91,17 +94,19 @@
 	================================================== -->
 	<div id="pricing">
 		<div class="container">
-			<div class="sixteen columns">
+			<div class="twelve columns offset-by-two">
 				<h2>How much will it cost me?</h2>
 				<p>It’s rather inexpensive to use Jott.ly’s suite of tools compared to several other services out there. We have several options to fit your budget and needs:</p>
 			</div>
+
 			<div class="one-third column">
 				<div class="pricebox">
 					<div class="priceheader">
 						<h3>Individuals &amp; Family</h3>
 					</div>
 					<div class="user">
-						<h4>$2 <span>per month<br/>/per user</span></h4>
+						<h4><span>$</span>2</h4>
+						<p>per month<br/>/per user</p>
 						<ul>
 							<li>Unlimited notes</li>
 							<li>Unlimited members</li>
@@ -118,7 +123,8 @@
 						<h3>Small Businesses</h3>
 					</div>
 					<div class="user">
-						<h4>$2 <span>per month<br/>/per user</span></h4>
+						<h4><span>$</span>5</h4>
+						<p>per month<br/>/per user</p>
 						<ul>
 							<li>Unlimited notes</li>
 							<li>Unlimited members</li>
@@ -136,7 +142,8 @@
 						<h3>Enterprise</h3>
 					</div>
 					<div class="user">
-						<h4>$8 <span>per month<br/>/per user</span></h4>
+						<h4><span>$</span>8</h4>
+						<p>per month<br/>/per user</p>
 						<ul>
 							<li>Unlimited notes</li>
 							<li>Unlimited members</li>
@@ -155,7 +162,7 @@
 	================================================== -->
 	<div id="testimonials">
 		<div class="container">
-			<div class="sixteen columns">
+			<div class="twelve columns offset-by-two">
 				<h2>Who's using it?</h2>
 				<p>Jott.ly has around 150,000 satisfied customers sharing and collaborating with teams throughout 35 countries. Here’s what a few had to say:</p>
 			</div>
@@ -197,7 +204,20 @@
 	<!-- Call to Action
 	================================================== -->
 	<div id="action">
-
+		<div class="container">
+			<div class="twelve columns offset-by-two">
+				<h2>Give it a try before you commit.</h2>
+				<p>You can test drive Jott.ly before deciding on one of our plans. Just give us your email address, and we'll send you the details:</p>
+				<div class="row">
+					<div class="eight columns alpha">
+						<input type="text" placeholder="Enter your email address"/>
+					</div>
+					<div class="four columns omega">
+						<button type="submit">Sign Up Now</button>
+					</div>
+				</div>
+			</div>		
+		</div>
 	</div>
 
 	<!-- Footer
@@ -214,13 +234,13 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="four columns">
-
+			<div class="two columns">
+				<img src="images/small_logo.png" />
 			</div>
-
+			<div class="two columns">
+				<p>&copy; 2014. Jott.ly. All Rights Reserved.</p>
+			</div>
 		</div>
-
 	</div>
-
 </body>
 </html>
